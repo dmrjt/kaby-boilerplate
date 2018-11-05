@@ -4,13 +4,13 @@
         "directive-selector": [
             true,
             "attribute",
-            "danalaut",
+            "app-example",
             "camelCase"
         ],
         "component-selector": [
             true,
             "element",
-            "danalaut",
+            "app-example",
             "kebab-case"
         ]
     }

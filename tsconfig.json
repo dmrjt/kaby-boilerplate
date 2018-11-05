@@ -1,22 +1,22 @@
 {
-  "compileOnSave": false,
-  "compilerOptions": {
-    "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
-    "sourceMap": true,
-    "declaration": false,
-    "module": "es2015",
-    "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "target": "es5",
-    "typeRoots": ["node_modules/@types"],
-    "lib": ["es2018","dom"],
-    "paths": {
-      "@danalaut/*": ["src/danalaut/*"],
-      "@shared/*": ["src/shared/*"],
-    }
-  },
-  "include": ["./apps-backend/**/*", "./src/**/*"],
-  "exclude": ["node_modules"]
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": "./",
+        "outDir": "./dist/out-tsc",
+        "sourceMap": true,
+        "declaration": false,
+        "module": "es2015",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es5",
+        "typeRoots": ["node_modules/@types"],
+        "lib": ["es2018", "dom"],
+        "paths": {
+            "@business/*": ["src/business/*"],
+            "@shared/*": ["src/shared/*"],
+        }
+    },
+    "include": ["./apps/**/*", "./src/**/*"],
+    "exclude": ["node_modules"]
 }
